@@ -4,16 +4,18 @@
 class Developer:
     def __init__(self):
         self.name = "Abdullah Haniff Kamal"
-        self.role = "Cybersecurity & NLP / Data Analytics Enthusiast"
-        self.languages = ["Python", "JavaScript", "SQL", "HTML/CSS", "Bash"]
-        self.fields = ["Natural Language Processing", "Data Analytics", "Cybersecurity", "Virtual Systems"]
+        self.role = "Cybersecurity & NLP Enthusiast"
+        self.languages = ["Python", "JavaScript", "SQL", "Bash"]
+        self.fields = [
+            "Natural Language Processing",
+            "Data Analytics",
+            "Cybersecurity",
+            "Virtual Systems"
+        ]
         self.location = "Malaysia"
 
     def get_tagline(self):
-        return "Building intelligent NLP pipelines, analyzing data, and exploring web security."
-
-me = Developer()
-print(me.get_tagline())
+        return "Building intelligent NLP pipelines & exploring web security."
 ```
 
 ---
@@ -74,4 +76,4 @@ print(me.get_tagline())
 
 - **GitHub:** [@HaniffKamal](https://github.com/HaniffKamal)
 - **LinkedIn:** [Your LinkedIn Profile URL](https://linkedin.com)
-- **Email:** haniffkamal.abd@gmail.com
+- **Email:** your.email@example.com
